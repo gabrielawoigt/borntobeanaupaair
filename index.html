@@ -22,40 +22,33 @@
       height: auto;
       display: block;
     }
-    .buttons {
+    .button {
       position: absolute;
       bottom: 30px;
       left: 50%;
       transform: translateX(-50%);
-      display: flex;
-      gap: 20px;
     }
-    .buttons a {
-      padding: 15px 25px;
-      background-color: #b5838d;
+    .button a {
+      padding: 15px 30px;
+      background-color: #25d366;
       color: white;
       text-decoration: none;
-      border-radius: 10px;
+      border-radius: 50px;
       font-size: 1rem;
       font-weight: bold;
+      display: inline-block;
       transition: 0.3s;
     }
-    .buttons a:hover {
-      background-color: #a16c77;
-    }
-    @media(max-width: 768px) {
-      .buttons {
-        flex-direction: column;
-      }
+    .button a:hover {
+      background-color: #1ebd5a;
     }
   </style>
 </head>
 <body>
   <div class="hero">
     <img src="page_1.png" alt="Landing Page Canva Gabi">
-    <div class="buttons">
-      <a href="https://wa.me/5541987247281" target="_blank">Falar com a Gabi</a>
-      <a href="https://www.instagram.com/gabrielawoigt/" target="_blank">Me segue no Insta</a>
+    <div class="button">
+      <a href="https://wa.me/5541987247281" target="_blank">Falar com a Gabi no WhatsApp</a>
     </div>
   </div>
 </body>
